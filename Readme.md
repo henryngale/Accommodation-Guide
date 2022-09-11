@@ -1,7 +1,7 @@
 # ACCOMMODATION GUIDE PROJECT
 ## INSTALLTION DE L'ENVIRONNEMENT JAVASCRIPT
 ### INSTALLATION DES DEPENDANCE DE NODEJS
-Il suffit de tapper la commande: `npm install`. Après l'installation, supprimer le dossier `@flaticon` et le remplacer la version à décompresser contenu dans le fichier `@flaticon.tar.xz`.
+Il suffit de tapper la commande: `npm install`. Après l'installation, supprimer le dossier `@flaticon` contenu dans `node_modules` et le remplacer la version à décompresser contenu dans le fichier `@flaticon.tar.xz` situé à la racine du projet.
 
 ### POUR COMPILER LES DEPENDANCES JAVASCRIPT
 Il suffit de tapper la commande: `npm run build`
