@@ -6,15 +6,4 @@
 
 
 class Image(object):
-    # ˅
-    
-    # ˄
-
-    # ˅
-    
-    # ˄
-
-
-# ˅
-
-# ˄
+    pass

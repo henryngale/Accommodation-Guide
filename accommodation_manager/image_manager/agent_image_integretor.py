@@ -12,13 +12,13 @@ class AgentImageIntegretor(object, metaclass=ABCMeta):
     
     # ˄
 
-    def addImage(self, img, ac, ag):
+    def add_image(self, img, ac, ag):
         # ˅
         pass
         # ˄
 
     @abstractmethod
-    def removeImage(self, ac, img):
+    def remove_mage(self, ac, img):
         # ˅
         pass
         # ˄

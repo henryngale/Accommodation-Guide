@@ -1,8 +1,8 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 # ˅
-from Henry.package.AccommodationManager.ImageManager.agent_image_integretor import AgentImageIntegretor
-from Henry.package.AccommodationManager.ImageManager.image import Image
+from agent_image_integretor import AgentImageIntegretor
+from image import Image
 
 
 # ˄
@@ -19,7 +19,7 @@ class Integretor(AgentImageIntegretor):
         # ˄
 
     @classmethod
-    def getInstance(cls):
+    def get_instance(cls):
         # ˅
         pass
         # ˄
