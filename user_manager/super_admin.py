@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 # ˅
-from Henry.package.UserManager.adminstrator import Adminstrator
+from adminstrator import Adminstrator
 
 
 # ˄
@@ -12,12 +12,12 @@ class SuperAdmin(Adminstrator):
     
     # ˄
 
-    def validatePreregistration(self, p):
+    def validate_preregistration(self, p):
         # ˅
         pass
         # ˄
 
-    def setUpAgentState(self, agent):
+    def setup_agent_state(self, agent):
         # ˅
         pass
         # ˄

@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 # ˅
-from Henry.package.UserManager.RegistrationManager.transaction import Transaction
+from user_manager.registration_manager.transaction import Transaction
 
 
 # ˄

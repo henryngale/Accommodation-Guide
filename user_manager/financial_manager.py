@@ -1,10 +1,8 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 # ˅
-from Henry.package.FinancialManager.Account.ads_account import AdsAccount
-from Henry.package.FinancialManager.AgentState.agent_state_provider import AgentStateProvider
-from Henry.package.FinancialManager.resgistrator import Resgistrator
-from Henry.package.UserManager.adminstrator import Adminstrator
+
+from adminstrator import Adminstrator
 
 
 # ˄

@@ -1,23 +1,20 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 # ˅
-from Henry.package.UserManager.Provider.accommodation_provider import AccommodationProvider
-from Henry.package.UserManager.provider_render import ProviderRender
+from provider.accommodation_provider import AccommodationProvider
+from provider_render import ProviderRender
 
 
 # ˄
 
 
 class ProviderManger(ProviderRender):
-    # ˅
-    
-    # ˄
 
-    # ˅
-    
-    # ˄
+    def get_providers(self):
+        pass
 
+    def search_providers(self, v, max_items):
+        pass
 
-# ˅
-
-# ˄
+    def get_provider_infos(self, p):
+        pass

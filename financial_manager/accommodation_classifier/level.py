@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 # ˅
-from Henry.package.FinancialManager.AccommodationClassifier.rank import Rank
+from rank import Rank
 
 
 # ˄
@@ -12,12 +12,12 @@ class Level(object):
     
     # ˄
 
-    def getRank(self):
+    def get_rank(self):
         # ˅
         pass
         # ˄
 
-    def getIndice(self):
+    def get_indice(self):
         # ˅
         pass
         # ˄

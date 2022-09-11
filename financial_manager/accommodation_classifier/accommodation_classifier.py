@@ -13,43 +13,43 @@ class AccommodationClassifier(object, metaclass=ABCMeta):
     # ˄
 
     @abstractmethod
-    def getCathegories(self):
+    def get_categories(self):
         # ˅
         pass
         # ˄
 
     @abstractmethod
-    def getCathegory(self, a):
+    def get_category(self, a):
         # ˅
         pass
         # ˄
 
     @abstractmethod
-    def serCatherogy(self, a, c):
+    def set_category(self, a, c):
         # ˅
         pass
         # ˄
 
     @abstractmethod
-    def getTypes(self):
+    def get_types(self):
         # ˅
         pass
         # ˄
 
     @abstractmethod
-    def getLevels(self):
+    def get_levels(self):
         # ˅
         pass
         # ˄
 
     @abstractmethod
-    def getRanks(self):
+    def get_ranks(self):
         # ˅
         pass
         # ˄
 
     @abstractmethod
-    def getAmount(self, c, nbAccommodation):
+    def get_amount(self, c, nb_accommodation):
         # ˅
         pass
         # ˄

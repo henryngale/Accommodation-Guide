@@ -10,7 +10,7 @@ class Rank(object):
     
     # ˄
 
-    def getIndice(self):
+    def get_indice(self):
         # ˅
         pass
         # ˄

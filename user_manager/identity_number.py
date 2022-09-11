@@ -6,15 +6,4 @@
 
 
 class IdentityNumber(object):
-    # ˅
-    
-    # ˄
-
-    # ˅
-    
-    # ˄
-
-
-# ˅
-
-# ˄
+    pass

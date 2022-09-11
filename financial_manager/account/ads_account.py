@@ -6,15 +6,4 @@
 
 
 class AdsAccount(object):
-    # ˅
-    
-    # ˄
-
-    # ˅
-    
-    # ˄
-
-
-# ˅
-
-# ˄
+    pass

@@ -1,8 +1,8 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 # ˅
-from Henry.package.UserManager.RegistrationManager.transaction import Transaction
-from Henry.package.UserManager.identity_number import IdentityNumber
+from user_manager.registration_manager.transaction import Transaction
+from identity_number import IdentityNumber
 
 
 # ˄
@@ -13,37 +13,37 @@ class Adminstrator(object):
     
     # ˄
 
-    def addPreregistration(self, pr):
+    def add_preregistration(self, pr):
         # ˅
         pass
         # ˄
 
-    def getPreregistrations(self):
+    def get_pre_registrations(self):
         # ˅
         pass
         # ˄
 
-    def deletePreregistion(self, p):
+    def delete_pre_registion(self, p):
         # ˅
         pass
         # ˄
 
-    def addInscription(self, i):
+    def add_inscription(self, i):
         # ˅
         pass
         # ˄
 
-    def addSuscription(self, s):
+    def add_suscription(self, s):
         # ˅
         pass
         # ˄
 
-    def getSuscriptions(self):
+    def get_suscriptions(self):
         # ˅
         pass
         # ˄
 
-    def deleteSuscrition(self, s):
+    def delete_suscrition(self, s):
         # ˅
         pass
         # ˄

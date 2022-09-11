@@ -6,15 +6,4 @@
 
 
 class AgentState(object):
-    # ˅
-    
-    # ˄
-
-    # ˅
-    
-    # ˄
-
-
-# ˅
-
-# ˄
+    pass

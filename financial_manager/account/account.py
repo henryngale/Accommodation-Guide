@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 # ˅
-from Henry.package.FinancialManager.Account.ads_account import AdsAccount
+from ads_account import AdsAccount
 
 
 # ˄
@@ -22,7 +22,7 @@ class Account(object):
         pass
         # ˄
 
-    def getAmount(self):
+    def get_amount(self):
         # ˅
         pass
         # ˄

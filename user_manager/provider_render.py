@@ -13,19 +13,19 @@ class ProviderRender(object, metaclass=ABCMeta):
     # ˄
 
     @abstractmethod
-    def getProviders(self):
+    def get_providers(self):
         # ˅
         pass
         # ˄
 
     @abstractmethod
-    def searchProviders(self, v, maxItems):
+    def search_providers(self, v, max_items):
         # ˅
         pass
         # ˄
 
     @abstractmethod
-    def getProviderInfos(self, p):
+    def get_provider_infos(self, p):
         # ˅
         pass
         # ˄

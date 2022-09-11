@@ -1,23 +1,12 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 # ˅
-from Henry.package.FinancialManager.Account.account import Account
-from Henry.package.FinancialManager.resgistrator import Resgistrator
+from account.account import Account
+from registrator import Registrator
 
 
 # ˄
 
 
-class Validator(Resgistrator):
-    # ˅
-    
-    # ˄
-
-    # ˅
-    
-    # ˄
-
-
-# ˅
-
-# ˄
+class Validator(Registrator):
+    pass

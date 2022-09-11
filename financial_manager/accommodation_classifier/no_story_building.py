@@ -1,22 +1,13 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 # ˅
-from Henry.package.FinancialManager.AccommodationClassifier.type import Type
+from type import Type
 
 
 # ˄
 
 
 class NoStoryBuilding(Type):
-    # ˅
-    
-    # ˄
 
-    # ˅
-    
-    # ˄
-
-
-# ˅
-
-# ˄
+    def get_indice(self):
+        pass

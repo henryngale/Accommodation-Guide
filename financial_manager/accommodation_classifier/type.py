@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 # ˅
-from Henry.package.FinancialManager.AccommodationClassifier.level import Level
+from level import Level
 from abc import *
 
 
@@ -13,13 +13,13 @@ class Type(object, metaclass=ABCMeta):
     
     # ˄
 
-    def getLevel(self):
+    def get_level(self):
         # ˅
         pass
         # ˄
 
     @abstractmethod
-    def getIndice(self):
+    def get_indice(self):
         # ˅
         pass
         # ˄

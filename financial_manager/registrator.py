@@ -7,13 +7,13 @@ from abc import *
 # ˄
 
 
-class Resgistrator(object, metaclass=ABCMeta):
+class Registrator(object, metaclass=ABCMeta):
     # ˅
     
     # ˄
 
     @abstractmethod
-    def validate(self, t, adimin):
+    def validate(self, t, admin):
         # ˅
         pass
         # ˄
