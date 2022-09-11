@@ -1,19 +1,25 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 # ˅
-from Henry.package.AccommodationManager.3DModelManager.3_d_model import 3DModel
-from Henry.package.AccommodationManager.Region.collectivity import Collectivity
-from Henry.package.AccommodationManager.accommodable import Accommodable
-from Henry.package.AccommodationManager.sub_domain import SubDomain
+from typing import List
 
-
-# ˄
+from accommodation_manager.accommodable import Accommodable
+from accommodation_manager.image_manager.image import Image
+from accommodation_manager.model_3d_manager.model_3d import Model3D
 
 
 class AccommodationDomain(Accommodable):
-    # ˅
-    
-    # ˄
+    def add_model(self, m: Model3D):
+        pass
+
+    def add_image(self, img: Image):
+        pass
+
+    def get_models(self) -> List[Model3D]:
+        pass
+
+    def get_images(self) -> List[Image]:
+        pass
 
     def add(self, s):
         # ˅
@@ -25,17 +31,17 @@ class AccommodationDomain(Accommodable):
         pass
         # ˄
 
-    def getAccomodations(self):
+    def get_accommodations(self) -> List[Accommodable]:
         # ˅
         pass
         # ˄
 
-    def deleteDomain(self, s):
+    def delete_domain(self, s):
         # ˅
         pass
         # ˄
 
-    def delete(self, a):
+    def delete(self, a: Accommodable):
         # ˅
         pass
         # ˄

@@ -1,46 +1,47 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 # ˅
-from Henry.package.AccommodationManager.Geolocalisation.position import Position
+from typing import List
+
 from abc import *
 
-
 # ˄
+from accommodation_manager.image_manager.image import Image
+from accommodation_manager.model_3d_manager.model_3d import Model3D
 
 
 class Accommodable(object, metaclass=ABCMeta):
     # ˅
-    
+
     # ˄
 
     @abstractmethod
-    def addModel(self, m):
+    def add_model(self, m: Model3D):
         # ˅
         pass
         # ˄
 
     @abstractmethod
-    def addImage(self, Img):
+    def add_image(self, img: Image):
         # ˅
         pass
         # ˄
 
     @abstractmethod
-    def getModels(self):
+    def get_models(self) -> List[Model3D]:
         # ˅
         pass
         # ˄
 
     @abstractmethod
-    def getImages(self):
+    def get_images(self) -> List[Image]:
         # ˅
         pass
         # ˄
 
     # ˅
-    
-    # ˄
 
+    # ˄
 
 # ˅
 

@@ -1,9 +1,8 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 # ˅
-from Henry.package.AccommodationManager.3DModelManager.3_d_model import 3DModel
-from Henry.package.AccommodationManager.accommodable import Accommodable
-from Henry.package.AccommodationManager.accommodation import Accommodation
+from accommodable import Accommodable
+from accommodation import Accommodation
 
 
 # ˄
@@ -14,12 +13,12 @@ class SubDomain(Accommodable):
     
     # ˄
 
-    def add(self, a):
+    def add(self, a: Accommodation):
         # ˅
         pass
         # ˄
 
-    def delete(a:Accommodation)(self):
+    def delete(self, a: Accommodation):
         # ˅
         pass
         # ˄

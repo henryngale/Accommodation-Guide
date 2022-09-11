@@ -1,23 +1,23 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 # ˅
-from Henry.package.AccommodationManager.3DModelManager.3_d_model import 3DModel
-from Henry.package.AccommodationManager.accommodable import Accommodable
+from typing import List
 
-
-# ˄
+from accommodation_manager.accommodable import Accommodable
+from accommodation_manager.image_manager.image import Image
+from accommodation_manager.model_3d_manager.model_3d import Model3D
 
 
 class Accommodation(Accommodable):
-    # ˅
-    
-    # ˄
 
-    # ˅
-    
-    # ˄
+    def add_model(self, m: Model3D):
+        pass
 
+    def add_image(self, img: Image):
+        pass
 
-# ˅
+    def get_models(self) -> List[Model3D]:
+        pass
 
-# ˄
+    def get_images(self) -> List[Image]:
+        pass
