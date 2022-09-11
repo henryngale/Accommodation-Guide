@@ -8,3 +8,5 @@ Il suffit de tapper la commande: `npm run build`
 
 ## INSTALLATION DE L'ENVIRONNEMENT PYTHON
 Il faudrait d'abord se rassurer que l'environnement virtuel est installer, en ensuite exécuter la commande `pip install -r requirements.txt`.
+
+> Supervisor: NDZANA LOMO Joseph, CUK, Kribi, jclecoder@gmail.com
