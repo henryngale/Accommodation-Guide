@@ -1,0 +1,51 @@
+{% extends 'page.html' %}
+
+{% block page_lang %}en{% endblock %}
+{% block page_charset %}UTF-8{% endblock %}
+{% block page_title %}
+    {{ config.APP_NAME }} - {{ config.APP_DESCRIPTION }}
+{% endblock %}
+{% block page_header_link %}
+    {% include 'private/backend/components/favicon.html' %}
+    {% include 'private/backend/components/fonts.html' %}
+{% endblock %}
+{% block page_content %}
+    <div class="is-fullplan is-flex is-flex-direction-column is-align-items-center is-justify-content-center is-align-content-center">
+        <div class="column is-4-desktop is-5-tablet mx-auto">
+            <div class="box">
+                <form action="">
+                    <figure class="image is-128x128 mx-auto">
+                        <img src="../../../../static/images/ext/matrix/brand/logo.svg">
+                    </figure>
+
+                    <div class="field mt-4">
+                        <div class="control has-icons-left has-icons-right">
+                            <input class="input" type="text" placeholder="Username">
+                            <span class="icon is-left">
+                              <i class="fas fi fi-rr-user"></i>
+                            </span>
+                        </div>
+                    </div>
+
+                    <div class="field">
+                        <div class="control has-icons-left has-icons-right">
+                            <input class="input" type="password" placeholder="Password">
+                            <span class="icon is-left">
+                              <i class="fas fi fi-rr-password"></i>
+                            </span>
+                        </div>
+                    </div>
+
+                    <button class="button is-primary is-fullwidth mt-4">
+                        Login
+                    </button>
+                </form>
+
+                <div class="is-divider my-2 is-primary"></div>
+                <p class=".title">
+                    {{ conf.APP_SLOGAN }}
+                </p>
+            </div>
+        </div>
+    </div>
+{% endblock %}

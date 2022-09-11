@@ -1,0 +1,16 @@
+{% extends 'page.html' %}
+
+{% block page_lang %}en{% endblock %}
+{% block page_charset %}UTF-8{% endblock %}
+{% block page_title %}
+    {{ config.APP_NAME }} - {{ config.APP_DESCRIPTION }}
+{% endblock %}
+{% block page_header_link %}
+    {% include 'private/backend/components/favicon.html' %}
+    {% include 'private/backend/components/fonts.html' %}
+{% endblock %}
+{% block page_content %}
+    <div class="container">
+        Je suis sur la page d'accueil !!!
+    </div>
+{% endblock %}

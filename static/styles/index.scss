@@ -1,0 +1,23 @@
+@charset "utf-8";
+
+$purple: #BAABDA;
+$purple-dark: #D77FA1;
+$bg-color: #FFF9F9;
+
+
+$body-background-color: $bg-color;
+$primary: $purple-dark;
+$input-focus-border-color: $purple;
+
+
+@import "../../node_modules/bulma/bulma";
+@import "../../node_modules/bulma-extensions/src/sass/index";
+
+@import "/static/styles/ext/uicons/css/uicons-regular-rounded.css";
+@import "sass/fonts";
+
+.is-fullplan{
+  position: absolute;
+  height: 100%;
+  width: 100%;
+}

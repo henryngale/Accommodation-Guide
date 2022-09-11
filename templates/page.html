@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="{% block page_lang %}{% endblock %}">
+<head>
+    <meta charset="{% block page_charset %}{% endblock %}">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    {% block page_meta %}{% endblock %}
+
+    <title>{% block page_title %}{% endblock %}</title>
+
+    {% block page_header_link %}{% endblock %}
+
+    <script src="/static/scripts/bundle.js"></script>
+
+    {% block page_header_script %}{% endblock %}
+</head>
+<body>
+{% block page_content %}{% endblock %}
+{% block page_footer_script %}{% endblock %}
+</body>
+</html>
